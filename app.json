@@ -59,7 +59,7 @@
       },
       "TOKEN": {
          "description": "Your bot token.",
-         "value": "2019833685:AAG1-Gb-7tiMkGHmvYtHfFmg4XGyJNyQ020"
+         "value": ""
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
@@ -84,5 +84,5 @@
       "phoenix"
    ],
    "name": "tva",
-   "repository": "https://github.com/mpb00121/manager/"
+   "repository": "https://github.com/mpb00121/manager-1"
 }
