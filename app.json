@@ -1,0 +1,88 @@
+{
+   "addons": [
+      {
+         "options": {
+            "version": "13"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "description": "Modular Telegram bot for managing your groups with a few extras!",
+   "env": {
+      "ALLOW_EXCL": {
+         "description": "Set this to True if you want ! to be a command prefix along with /",
+         "value": "True"
+      },
+      "BAN_STICKER": {
+         "description": "ID of the sticker you want to use when banning people.",
+         "required": false,
+         "value": ""
+      },
+      "DEL_CMDS": {
+         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+         "value": "True"
+      },
+
+      "ENV": {
+         "description": "Setting this to ANYTHING will enable environment variables.",
+         "value": "ANYTHING"
+      },
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "value": "2047505238"
+      },
+      "OWNER_USERNAME": {
+         "description": "Your username",
+         "value": "GOOD_ONE_REBORN"
+      },
+      "PORT": {
+         "description": "Port to use for your webhooks.",
+         "required": false,
+         "value": "8443"
+      },
+      "STRICT_GBAN": {
+         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+         "value": "True"
+      },
+      "SUDO_USERS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "value": "2031107655 2047505238"
+      },
+      "SUPPORT_USERS": {
+         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "value": "2031107655 2047505238"
+      },
+      "BL_CHATS": {
+          "description": "A space separated list of chat IDs to blacklist. Bot will leave those chats when added to them.",
+          "required": false,
+          "value": ""
+      },
+      "TOKEN": {
+         "description": "Your bot token.",
+         "value": "2019833685:AAG1-Gb-7tiMkGHmvYtHfFmg4XGyJNyQ020"
+      },
+      "URL": {
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+         "required": false,
+         "value": ""
+      },
+      "WEBHOOK": {
+         "description": "Setting this to ANYTHING will enable webhooks.",
+         "required": false,
+         "value": ""
+      },
+      "WHITELIST_USERS": {
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "value": "2047505238 2031107655"
+      }
+   },
+   "keywords": [
+      "telegram",
+      "best",
+      "group",
+      "manager",
+      "phoenix"
+   ],
+   "name": "tva",
+   "repository": "https://github.com/mpb00121/manager/"
+}
