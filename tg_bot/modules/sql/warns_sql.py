@@ -1,6 +1,6 @@
 import threading
 
-from Miss_Minutes.modules.sql import BASE, SESSION
+from tg_bot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 from sqlalchemy.dialects import postgresql
 
